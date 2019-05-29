@@ -1,19 +1,39 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+init will tell that the directory has to be a git directory and it will add .git folder into it
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+it gives a temporary folder where you can define what all you want to insert
+
+staging gives you the freedom to club in only the reuiqred files that affect your project or else all the other files will get added to repository that you mey not need. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+after one staging we can make sure that the commit version will have one change only. after that the next change can be staged then commited
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+try out experiment
+keep mainverion for certification
+add comments as per certification
+
 
 How do the diagrams help you visualize the branch structure?
+
+very helpful you can see the additional versionsn and the master branch and if required combine the branches
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+it will add the additional codes that are from the two branches
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+it gives us the places the mearge to be done a
+conflicts are sorted out by them and given to us 
+we have the ultimate call to do the merge and conflict resolutions
 
